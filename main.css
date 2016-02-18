@@ -1,5 +1,10 @@
+.nav {
+    background: deepskyblue;
+}
+
 .nav a {
   color: #5a5a5a;
+  font-family: 'Libre Baskerville', serif;
   font-size: 11px;
   font-weight: bold;
   padding: 14px 10px;
@@ -25,7 +30,7 @@
 .jumbotron h1 {
   color: #fff;
   font-size: 48px;  
-  font-family: 'Shift', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   font-weight: bold;
 }
 
@@ -42,7 +47,7 @@
 .places h2 {
     color: #393c3d;
     font-size: 24px;
-    font-family: 'shift', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-weight: bold;
 }
 
@@ -56,7 +61,7 @@
 }
 
 .learn-more h3 {
-  font-family: 'Shift', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   font-size: 18px;
   font-weight: bold;
 }
@@ -68,12 +73,35 @@
 .mainsec h1 {
   color: #1E90FF;
   font-size: 48px;  
-  font-family: 'Shift', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   font-weight: bold;
 }
 
 .mainsec ul {
   font-size: 24px;
-  font-family: 'shift', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   
+}
+
+.inputform h1 {
+    color: #1E90FF;
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+
+.inputform ul {
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+form {
+    display: block;
+    margin-top: 2em;
+}
+
+#footer {
+    text-align: center;
+    color: darkgray;
 }

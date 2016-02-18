@@ -2,10 +2,10 @@
 <html>
 
   <head>
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="bootstrap.css" rel = "stylesheet">
     <link rel="stylesheet" href="main.css">
-    
+    <title>CONTACTS</title>
   </head>
 
   <body>
@@ -29,10 +29,31 @@
 	    <ul class="contacts">
 	      <li>MOBILE (US): (805) 270-9509</li>
 	      <li>MOBILE (CN): 189 0186 2211</li>
-	      <li>E-MAIL: johnsonlumia@live.com</li>
-	      <li>ADDRESS: PO.BOX 11800, UCSB, CA 93107</li>
+	      <li>E-MAIL (personal): johnsonlumia@live.com</li>
+	      <li>E-MAIL (school): renjiezhu@umail.ucsb.edu</li>
+	      <li>ADDRESS: <br />PO.BOX 15325<br />San Rafael Hall, RM 2145A<br />University 
+	      of California Santa Barbara<br />California 93107</li>
+        </ul>
 	  </div>
 	</div>
-	
+	<hr>
+	<div class="inputform">
+	  <div class="container">
+        <h1>Send me an email</h1>
+	    <form action="MAILTO:johnsonlumia@live.com" method="post" enctype="text/plain">
+	      <ul class="contacts">
+          <li>Your Name:<br />
+		    <input type="text" name="name" /></li>
+	      <li>Your E-Mail:<br />
+	        <input type="text" name="email" /></li>
+	      <li>Message:<br />
+	        <textarea rows="10" cols="30" name="message"></textarea></li>
+          <input type="submit" value="Submit" />
+          </ul>
+	    </form>
+	  </div>
+	</div>
+    
+    <p id = "footer">&copy; Renjie Zhu 2016</p>
   </body>
 </html>
